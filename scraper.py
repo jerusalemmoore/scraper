@@ -14,6 +14,7 @@ class Scraper():
         self.__url = "https://chico.craigslist.org/d/cars-trucks/search/cta"
         # posts in one craisglist page, used for incrementing through all pages
         self.__itemsPerPage = 120
+        
     def retrievePosts(self):
         page = requests.get("https://chico.craigslist.org/d/cars-trucks/search/cta")
         soup = BeautifulSoup(page.content, "html.parser")
