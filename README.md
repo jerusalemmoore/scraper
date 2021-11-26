@@ -47,5 +47,11 @@ some diagnostic output showing the scraping of multiple pages
 ![Screenshot (429)](https://user-images.githubusercontent.com/43590688/143510463-be984d09-189f-45c0-b969-45ab573bdffc.png)  
 
 sqlite database contents from Scraper class that was found in craigslist cars for sale pages  
+  Data stored  
+  primary key  
+  description  
+  price  
+  location  
+  url  
 ![Screenshot (430)](https://user-images.githubusercontent.com/43590688/143510494-568a0f48-3ba1-468f-9a4e-1a2133191de9.png)
 
